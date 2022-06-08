@@ -72,19 +72,29 @@ a{
 
 }
 
-button{
-    border: none;
-    font-size: 18px;
-    background-color: #3882F6;
-    color:white;
+.button1{
     border-radius: 5px;
     padding-left: 10px;
     padding-right: 10px;
     padding-top:2px;
     padding-bottom: 2px;
-    font-weight: bold;
     
+    border: solid;
+    border-color: #ffffff;
+    border-width: thin;
+    background-color: #3882F6;
+    color:white;
+    font-weight: bold;
+    font-size: 18px;
+
+    cursor: pointer;
 }
+
+.button1:active {
+    background-color: #3882F6;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
 
 .middlecontainer{
     display:flex;
@@ -110,7 +120,13 @@ img {
     height: 200px;
     width: auto;
     border: 5px solid blue;
+    border-radius: 20px;
     
+}
+
+.text{
+    color: #1F2937;
+    font-size: 18px;
 }
 
 .mainimg{
@@ -142,12 +158,13 @@ img {
     display:flex;
     justify-content: end;
     padding-right: 150px;
+    font-size: 24px;
 }
 
 .calltoactioncontainer{
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 75px;
     background-color: #3882F6;
     margin: 200px;
     padding: 100px;
@@ -156,22 +173,28 @@ img {
     
 }
 
-
-
-button{
-    border-color: white;
+.button2{
+    border: solid;
+    border-color: #ffffff;
     border-width: thick;
     background-color: #3882F6;
     color:white;
-    border-radius: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top:2px;
-    padding-bottom: 2px;
+   
+    border-radius: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+   
     font-weight: bold;
-    font-size: 48px;
+    font-size: 25px;
+
+    cursor: pointer;
     
 }
+.button2:active {
+    background-color: #3882F6;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
 
 .action1{
     font-size: 48px;
@@ -201,4 +224,7 @@ button{
     background-color: #1f2937;
     font-weight: bold;
     color: white;
+    padding: 10px;
+    
 }
+
